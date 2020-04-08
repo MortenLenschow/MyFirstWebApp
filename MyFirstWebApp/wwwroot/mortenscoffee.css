@@ -1,9 +1,19 @@
 ﻿body {
-    background-color:honeydew;
-    color:dimgrey;
-    font-family:'Bodoni MT';
+    background-color: #271d14;
+    color: dimgrey;
+    font-family: 'Bodoni MT';
 }
 
 footer {
     color: dodgerblue;
 }
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-image: linear-gradient(to right, #1c150e, #59391d, #1c150e);
+    min-width: 700px;
+    box-shadow: 5px 5px 5px #828282;
+}
+

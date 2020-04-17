@@ -1,11 +1,19 @@
-﻿body {
-    background-color: #271d14;
-    color: dimgrey;
+﻿
+body {
+    background-color: #1c150e;
+    color: #ffd296;
     font-family: 'Bodoni MT';
 }
 
 footer {
     color: dodgerblue;
+    text-align: center;
+}
+
+#nav {
+    text-align: center;
+    font-size: 30px;
+    color: #ffd296;
 }
 
 #content {
@@ -14,6 +22,11 @@ footer {
     width: 80%;
     background-image: linear-gradient(to right, #1c150e, #59391d, #1c150e);
     min-width: 700px;
-    box-shadow: 5px 5px 5px #828282;
+    min-height: inherit;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
